@@ -1,0 +1,68 @@
+input{
+    width: 360px;
+    height: 40px;
+}  
+#button{
+    width: 200px;
+    height: 40px;
+    background-color: black; 
+    color:white;
+    border:1px white outset;
+}   
+
+#buttonDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    padding-top:10px;
+    padding-bottom:12px;
+    background: white;
+    color: black;
+    min-width: 50px;
+    text-align: center;
+    border: 2px outset ;
+}
+
+#registerDiv{
+    border-radius:10px; 
+    width: 500px; 
+    height: 500px;
+    border: 20px outset ; 
+    border-color: lightgray; 
+    text-align: center;
+}
+
+
+.col {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+#dataBase{
+    border-radius:10px; 
+    width: 500px; 
+    height: 500px;
+    border: 20px outset ; 
+    border-color: lightgray; 
+    text-align: center;
+    overflow-y:auto;
+}
+table{
+    width: 120px;
+    height: 40px;
+}
+
+th{
+    width:150px;
+    height:40px;
+}

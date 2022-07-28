@@ -24,14 +24,21 @@
                             <p id="demo3"></p>
                         <div><label></label> <input type="text"  placeholder="Confirma parola" required id="passcheck">    <i class="fa fa-lock icon"></i></i></div><br>
                         <div class="row " id="buttonDiv">
-                            <input class="col" type="button"  value="Intra in cont" id="button" onclick="functionValidation();">
-                            <input class="col" type="reset"   value="reset" id="button">
+                            <div class="col" ><input type="button"  value="Intra in cont" class="button" onclick="functionValidation();"></div>
+                            <div class="col"><input  type="reset"   value="reset" class="button"></div>
                         </div>
                     
                     </form> 
             </div>
 
-            <div class="col" id="dataBase">
+            <div  id="dataBase">
+                <div class="row" id="search">
+                    <div ><label></label> <input type="number"  placeholder="Sort by id" class="search" id="leftDiv">
+                    <div ><label></label> <input type="text"  placeholder="Sort by email "  class="search" id="centerDiv">                     
+                    <div><input type="button"  value="Search" id="rightDiv" class="button" onclick="search();">
+                    
+                    </div><br><br><br>
+                </div>
                 <table id="dataStorage" >
                     <tr>
                         <th>ID</th>
